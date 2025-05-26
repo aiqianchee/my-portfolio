@@ -1,0 +1,25 @@
+.skills-category {
+  margin-bottom: 25px;
+}
+
+.skills-category h4 {
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #004ecc; /* blue theme */
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skills-list li {
+  background-color: #e0eef2;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  color: #2e477d;
+}

@@ -1,0 +1,47 @@
+.page-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 20px;
+  align-items: start;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+.years {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #004ecc; /* blue theme */
+}
+
+.details strong {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #002d72;
+}
+
+.details em {
+  font-style: italic;
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.details p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
